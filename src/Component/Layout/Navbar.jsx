@@ -55,7 +55,7 @@ const linkDrop = (
       to="/"
       className={({ isActive }) =>
         isActive
-          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2"
+          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
           : "px-3 py-2"
       }
     >
@@ -68,7 +68,7 @@ const linkDrop = (
       to="allArtifacts"
       className={({ isActive }) =>
         isActive
-          ? " bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2"
+          ? " bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base "
           : "px-3 py-2"
       }
     >
@@ -81,7 +81,7 @@ const linkDrop = (
       to="addArtifacts"
       className={({ isActive }) =>
         isActive
-          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2"
+          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
           : "px-3 py-2"
       }
     >
@@ -91,7 +91,21 @@ const linkDrop = (
   
     )}
 
-
+{user?.email && (
+  <li className="hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-800 hover:to-red-900 hover:text-white font-semibold hover:rounded-2xl">
+    <NavLink
+      to="VlogPage"
+      className={({ isActive }) =>
+        isActive
+          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
+          : "px-3 py-2"
+      }
+    >
+      Vlogs
+    </NavLink>
+  </li>
+  
+    )}
 
 
   <li className="hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-800 hover:to-red-900 hover:text-white font-semibold hover:rounded-2xl">
@@ -99,7 +113,7 @@ const linkDrop = (
       to="aboutUs"
       className={({ isActive }) =>
         isActive
-          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2"
+          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
           : "px-3 py-2"
       }
     >
@@ -143,13 +157,13 @@ const linkDrop = (
           </ul>
         </div>
         <NavLink to="/" className="flex items-center cursor-pointer">
-          <img className="md:w-20 w-12" src={Image1} alt="Sunflower Logo" />
-          <span className="font-bold md:text-3xl text-lg">Celestora</span>
+          <img className="lg:w-20 md:w-14 w-12" src={Image1} alt="Sunflower Logo" />
+          <span className="font-bold lg:text-3xl md:text-2xl text-lg">Celestora</span>
         </NavLink>
       </div>
 
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal gap-2 px-1 text-xl">{links}</ul>
+      <div className="navbar-center max-sm:hidden lg:flex">
+        <ul className="menu menu-horizontal gap-1 px-1 text-xl">{links}</ul>
       </div>
 
 {/* User Profile & Log In */}
