@@ -1,0 +1,240 @@
+[
+    {
+        "name": "Rosetta Stone",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/768px-Rosetta_Stone.JPG",
+        "type": "Inscription",
+        "historicalContext": "A stone inscription with the same message in three different scripts: hieroglyphic, Demotic, and Ancient Greek.",
+        "createdAt": "196 BC (approximately)",
+        "discoveredAt": "1799",
+        "discoveredBy": "French soldiers",
+        "presentLocation": "British Museum, London"
+        
+        
+    },
+    {
+        "name": "Terracotta Army",
+        "image": "https://i.ibb.co.com/KX5XmnF/4terracotta-army.jpg",
+        "type": "Sculptures",
+        "historicalContext": "Vast collection of terracotta soldiers and horses guarding the tomb of Qin Shi Huang.",
+        "createdAt": "Around 210 BC",
+        "discoveredAt": "1974",
+        "discoveredBy": "Local farmers",
+        "presentLocation": "Terracotta Army Museum, Xi'an, China"
+        
+        
+    },
+    {
+        "name": "Antikythera Mechanism",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg",
+        "type": "Astronomical Device",
+        "historicalContext": "Ancient Greek analog computer used to predict astronomical positions and eclipses.",
+        "createdAt": "2nd century BC (estimated)",
+        "discoveredAt": "1900",
+        "discoveredBy": "Sponge divers",
+        "presentLocation": "National Archaeological Museum, Athens, Greece"
+        
+        
+    },
+    {
+        "name": "Lascaux Cave Paintings",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Lascaux_painting.jpg",
+        "type": "Cave Art",
+        "historicalContext": "Stunning Paleolithic cave paintings depicting animals and human figures.",
+        "createdAt": "17,000 - 15,000 years ago (estimated)",
+        "discoveredAt": "1940",
+        "discoveredBy": "Four teenagers",
+        "presentLocation": "Lascaux IV (replica cave), Montignac, France (original cave closed to the public)"
+        
+        
+    },
+    {
+        "name": "Sutton Hoo Ship Burial",
+        "image": "https://media.newyorker.com/photos/5d4f88d24bf84500088c7eda/master/w_1280,c_limit/Knight-SuttonHoo-1.jpg",
+        "type": "Ship Burial",
+        "historicalContext": "Anglo-Saxon ship burial containing a wealth of treasures.",
+        "createdAt": "7th century AD",
+        "discoveredAt": "1939",
+        "discoveredBy": "Edith Pretty (landowner)",
+        "presentLocation": "British Museum, London"
+        
+        
+    },
+    {
+        "name": "Tutankhamun's Mask",
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/11/28/22/Tut_0.jpg?quality=75&width=1368&crop=3%3A2%2Csmart&auto=webp",
+        "type": "Gold Mask",
+        "historicalContext": "Gold funerary mask of the Egyptian pharaoh Tutankhamun.",
+        "createdAt": "1323 BC",
+        "discoveredAt": "1925",
+        "discoveredBy": "Howard Carter",
+        "presentLocation": "Egyptian Museum, Cairo"
+        
+        
+    },
+    {
+        "name": "Dead Sea Scrolls",
+        "image": "https://www.imj.org.il/sites/default/files/The-Dead-Sea-Scrolls.jpg",
+        "type": "Manuscripts",
+        "historicalContext": "Ancient Jewish religious manuscripts found in caves near the Dead Sea.",
+        "createdAt": "3rd century BC to 1st century AD",
+        "discoveredAt": "1947",
+        "discoveredBy": "Bedouin shepherds",
+        "presentLocation": "Israel Museum, Jerusalem"
+        
+        
+    },
+    {
+        "name": "Venus of Willendorf",
+        "image": "https://www.preistoriainitalia.it/wp-content/uploads/2022/03/032-1.jpg",
+        "type": "Sculpture",
+        "historicalContext": "Prehistoric figurine of a woman, often interpreted as a fertility symbol.",
+        "createdAt": "Around 28,000 BC",
+        "discoveredAt": "1908",
+        "discoveredBy": "Johann Veran",
+        "presentLocation": "Naturhistorisches Museum, Vienna"
+        
+        
+    },
+    {
+        "name": "Nebra Sky Disc",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Nebra_Scheibe.jpg/915px-Nebra_Scheibe.jpg",
+        "type": "Bronze Disc",
+        "historicalContext": "Bronze disc with gold symbols representing the sun, moon, and stars.",
+        "createdAt": "Around 1600 BC",
+        "discoveredAt": "1999",
+        "discoveredBy": "Treasure hunters",
+        "presentLocation": "Landesmuseum für Vorgeschichte Halle (Saale)"
+        
+        
+    },
+    {
+        "name": "Olmec Colossal Heads",
+        "image": "https://www.historyhit.com/app/uploads/2022/08/Olmec-Head-One.jpg",
+        "type": "Sculptures",
+        "historicalContext": "Massive stone heads carved by the Olmec civilization of Mesoamerica.",
+        "createdAt": "1200-900 BC",
+        "discoveredAt": "1920s",
+        "discoveredBy": "Archaeologists",
+        "presentLocation": "Various museums in Mexico"
+        
+        
+    },
+        {
+        "name": "Code of Hammurabi",
+        "image": "https://www.grunge.com/img/gallery/the-code-of-hammurabi-finally-explained/intro-1626789390.webp",
+        "type": "Stele",
+        "historicalContext": "Ancient Babylonian code of law inscribed on a basalt stele.",
+        "createdAt": "1754 BC",
+        "discoveredAt": "1901",
+        "discoveredBy": "Jean-Vincent Scheil",
+        "presentLocation": "Louvre Museum, Paris"
+        
+        
+    },
+    {
+        "name": "Bust of Nefertiti",
+        "image": "https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/v2/UCW3UVLW3RBJ3KASA4EXGJLZS4.jpg?smart=true&auth=c97ac7b148a6ddc637aab5142ff22b1483cbb2633937d10cdbf5812221143f5d&width=800&height=450",
+        "type": "Sculpture",
+        "historicalContext": "Famous depiction of Queen Nefertiti, wife of Pharaoh Akhenaten.",
+        "createdAt": "1345 BC",
+        "discoveredAt": "1912",
+        "discoveredBy": "Ludwig Borchardt",
+        "presentLocation": "Neues Museum, Berlin"
+        
+        
+    },
+    {
+        "name": "Shroud of Turin",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Turin_shroud_positive_and_negative_displaying_original_color_information_708_x_465_pixels_94_KB.jpg",
+        "type": "Relic",
+        "historicalContext": "A linen cloth bearing the image of a man, believed by some to be Jesus Christ.",
+        "createdAt": "14th century (controversial)",
+        "discoveredAt": "1354 (documented)",
+        "discoveredBy": "Unknown",
+        "presentLocation": "Cathedral of Saint John the Baptist, Turin, Italy"
+        
+        
+    },
+    {
+        "name": "Moai Statues",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG",
+        "type": "Monolithic Statues",
+        "historicalContext": "Large stone statues created by the Rapa Nui people of Easter Island.",
+        "createdAt": "1250-1500 AD",
+        "discoveredAt": "18th century",
+        "discoveredBy": "European explorers",
+        "presentLocation": "Easter Island, Chile"
+        
+        
+    },
+    {
+        "name": "Ark of the Covenant",
+        "image": "https://www.immanuel-tours.com/wp-content/uploads/2021/05/ark-800x581.jpg",
+        "type": "Sacred Chest",
+        "historicalContext": "Biblical artifact said to hold the Ten Commandments.",
+        "createdAt": "15th century BC (approximate)",
+        "discoveredAt": "Unknown (if it exists)",
+        "discoveredBy": "Biblical accounts",
+        "presentLocation": "Unknown"
+    },
+    {
+        "name": "Phaistos Disc",
+        "image": "https://www.worldhistory.org/img/r/p/1000x1200/364.jpg.webp?v=1625329803",
+        "type": "Clay Disc",
+        "historicalContext": "Ancient Minoan artifact with undeciphered symbols.",
+        "createdAt": "2nd millennium BC",
+        "discoveredAt": "1908",
+        "discoveredBy": "Luigi Pernier",
+        "presentLocation": "Heraklion Archaeological Museum, Crete, Greece",
+        "username": "Siam Mahmud",
+        "userEmail": "siammahmud66@gmail.com"
+    },
+    {
+        "name": "Lycurgus Cup",
+        "image": "https://romanempiretimes.com/content/images/size/w2000/format/avif/2024/01/1066957001-1.jpg",
+        "type": "Roman Glass",
+        "historicalContext": "Ancient Roman glass cup exhibiting dichroic properties.",
+        "createdAt": "4th century AD",
+        "discoveredAt": "1800s",
+        "discoveredBy": "Unknown",
+        "presentLocation": "British Museum, London",
+        "username": "Siam Mahmud",
+        "userEmail": "siammahmud66@gmail.com"
+    },
+    {
+        "name": "Disk of Enheduanna",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Disk_of_Enheduanna.JPG/800px-Disk_of_Enheduanna.JPG?20160408202506",
+        "type": "Stone Disk",
+        "historicalContext": "A Sumerian disk depicting Enheduanna, the earliest known poet.",
+        "createdAt": "2300 BC",
+        "discoveredAt": "1927",
+        "discoveredBy": "Leonard Woolley",
+        "presentLocation": "Penn Museum, Philadelphia",
+        "username": "Siam Mahmud",
+        "userEmail": "siammahmud66@gmail.com"
+    },
+    {
+        "name": "Mask of Agamemnon",
+        "image": "https://web.colby.edu/copiesfakesforgeries/files/2021/05/death-mask-of-agamemnon.jpeg",
+        "type": "Gold Mask",
+        "historicalContext": "Gold funerary mask attributed to King Agamemnon of Mycenae.",
+        "createdAt": "1550-1500 BC",
+        "discoveredAt": "1876",
+        "discoveredBy": "Heinrich Schliemann",
+        "presentLocation": "National Archaeological Museum, Athens",
+        "username": "Siam Mahmud",
+        "userEmail": "siammahmud66@gmail.com"
+    },
+    {
+        "name": "Cyrus Cylinder",
+        "image": "https://dustoffthebible.com/wp-content/uploads/2017/01/Cyrus-Cylinder-Display-1024x684.jpg",
+        "type": "Clay Cylinder",
+        "historicalContext": "Ancient artifact considered the first declaration of human rights.",
+        "createdAt": "539 BC",
+        "discoveredAt": "1879",
+        "discoveredBy": "Hormuzd Rassam",
+        "presentLocation": "British Museum, London",
+        "username": "Siam Mahmud",
+        "userEmail": "siammahmud66@gmail.com"
+    }
+]
