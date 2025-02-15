@@ -8,36 +8,36 @@ const Navbar = () => {
 
 const linkDrop = (
   <>
-    <li className="hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-800 hover:to-red-900 hover:text-white font-semibold mb-1 hover:rounded-2xl">
+    <li className="hover:bg-gradient-to-r hover:from-yellow-950 hover:to-orange-700 hover:text-white font-semibold mb-1 hover:rounded-2xl">
     <NavLink
       to="myProfile"
       className={({ isActive }) =>
         isActive
-          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2"
+          ? "bg-gradient-to-r from-yellow-950  to-orange-700 text-white font-semibold rounded-2xl px-3 py-2"
           : "px-3 py-2"
       }
     >
       My Profile
     </NavLink>
   </li>
-  <li className="hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-800 hover:to-red-900 hover:text-white font-semibold mb-1 hover:rounded-2xl">
+  <li className="hover:bg-gradient-to-r hover:from-yellow-950 hover:to-orange-700 hover:text-white font-semibold mb-1 hover:rounded-2xl">
     <NavLink
       to="myArtifacts"
       className={({ isActive }) =>
         isActive
-          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2"
+          ? "bg-gradient-to-r from-yellow-950  to-orange-700 text-white font-semibold rounded-2xl px-3 py-2"
           : "px-3 py-2"
       }
     >
       My Artifacts
     </NavLink>
   </li>
-  <li className="hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-800 hover:to-red-900 hover:text-white font-semibold mb-1 hover:rounded-2xl">
+  <li className="hover:bg-gradient-to-r hover:from-yellow-950 hover:to-orange-700 hover:text-white font-semibold mb-1 hover:rounded-2xl">
     <NavLink
       to="likedArtifacts"
       className={({ isActive }) =>
         isActive
-          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2"
+          ? "bg-gradient-to-r from-yellow-950  to-orange-700 text-white font-semibold rounded-2xl px-3 py-2"
           : "px-3 py-2"
       }
     >
@@ -50,12 +50,12 @@ const linkDrop = (
 
   const links = (
 <>
-  <li className="hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-800 hover:to-red-900 hover:text-white font-semibold hover:rounded-2xl">
+  <li className="hover:bg-gradient-to-r hover:from-yellow-950 hover:to-orange-700 hover:text-white font-semibold hover:rounded-2xl">
     <NavLink
       to="/"
       className={({ isActive }) =>
         isActive
-          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
+          ? "bg-gradient-to-r from-yellow-950  to-orange-700 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
           : "px-3 py-2"
       }
     >
@@ -63,12 +63,12 @@ const linkDrop = (
     </NavLink>
   </li>
   
-  <li className="hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-800 hover:to-red-900 hover:text-white font-semibold hover:rounded-2xl">
+  <li className="hover:bg-gradient-to-r hover:from-yellow-950 hover:to-orange-700 hover:text-white font-semibold hover:rounded-2xl">
     <NavLink
       to="allArtifacts"
       className={({ isActive }) =>
         isActive
-          ? " bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base "
+          ? " bg-gradient-to-r from-yellow-950  to-orange-700 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base "
           : "px-3 py-2"
       }
     >
@@ -76,12 +76,12 @@ const linkDrop = (
 </NavLink>
   </li>
   {user?.email && (
-  <li className="hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-800 hover:to-red-900 hover:text-white font-semibold hover:rounded-2xl">
+  <li className="hover:bg-gradient-to-r hover:from-yellow-950 hover:to-orange-700 hover:text-white font-semibold hover:rounded-2xl">
     <NavLink
       to="addArtifacts"
       className={({ isActive }) =>
         isActive
-          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
+          ? "bg-gradient-to-r from-yellow-950  to-orange-700 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
           : "px-3 py-2"
       }
     >
@@ -92,12 +92,12 @@ const linkDrop = (
     )}
 
 {user?.email && (
-  <li className="hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-800 hover:to-red-900 hover:text-white font-semibold hover:rounded-2xl">
+  <li className="hover:bg-gradient-to-r hover:from-yellow-950 hover:to-orange-700 hover:text-white font-semibold hover:rounded-2xl">
     <NavLink
       to="VlogPage"
       className={({ isActive }) =>
         isActive
-          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
+          ? "bg-gradient-to-r from-yellow-950  to-orange-700 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
           : "px-3 py-2"
       }
     >
@@ -108,12 +108,12 @@ const linkDrop = (
     )}
 
 
-  <li className="hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-800 hover:to-red-900 hover:text-white font-semibold hover:rounded-2xl">
+  <li className="hover:bg-gradient-to-r hover:from-yellow-950 hover:to-orange-700 hover:text-white font-semibold hover:rounded-2xl">
     <NavLink
       to="aboutUs"
       className={({ isActive }) =>
         isActive
-          ? "bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
+          ? "bg-gradient-to-r from-yellow-950  to-orange-700 text-white font-semibold rounded-2xl px-3 py-2 lg:text-2xl md:text-base"
           : "px-3 py-2"
       }
     >
@@ -197,7 +197,7 @@ const linkDrop = (
     <li className="w-28 mt-3 ml-10">
       <button
         onClick={logOut}
-        className="px-5 py-2 text-center rounded-3xl md:text-lg text-sm font-semibold border-yellow-800 hover:bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 text-black hover:text-white border"
+        className="px-5 py-2 text-center rounded-3xl md:text-lg text-sm font-semibold border-yellow-800 hover:bg-gradient-to-r from-yellow-950  to-orange-700 text-black hover:text-white border"
       >
         Log Out
       </button>
@@ -213,7 +213,7 @@ const linkDrop = (
             <FaUserCircle className="md:size-10 size-8  text-yellow-800" />
             <NavLink
               to="login"
-              className="px-5 py-2  rounded-3xl md:text-xl text-xs font-semibold bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 border text-white"
+              className="px-5 py-2  rounded-3xl md:text-xl text-xs font-semibold bg-gradient-to-r from-yellow-950  to-orange-700 border text-white"
             >
               Log In
             </NavLink>

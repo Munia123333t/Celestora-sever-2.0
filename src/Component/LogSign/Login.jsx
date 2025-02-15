@@ -95,7 +95,7 @@ const Login = () => {
             </label>
           </div>
           <div className="form-control">
-            <button className="btn text-xl bg-gradient-to-r from-yellow-900 via-orange-900 to-red-900 text-white font-semibold">
+            <button className="btn text-xl bg-gradient-to-r from-yellow-950  to-orange-700 text-white font-semibold">
               Login
             </button>
           </div>

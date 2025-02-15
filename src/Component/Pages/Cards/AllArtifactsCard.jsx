@@ -29,7 +29,7 @@ return (
 
         <Link
             to={`/artifactDetails/${_id}`}
-            className="btn bg-gradient-to-r from-yellow-900 via-orange-900 to-red-900 text-lg text-white font-bold rounded-xl"
+            className="btn bg-gradient-to-r from-yellow-950  to-orange-700 text-lg text-white font-bold rounded-xl"
         >
             View Details
         </Link>

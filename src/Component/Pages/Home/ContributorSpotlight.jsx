@@ -77,7 +77,7 @@ const ContributorSpotlight = () => {
                                 </div>
                             </div>
                             
-                            <div className="bg-gradient-to-r from-yellow-900 via-orange-900 to-red-900 p-4">
+                            <div className="bg-gradient-to-r from-yellow-950  to-orange-700 p-4">
                                 <button className="w-full text-white font-medium hover:opacity-90 transition-opacity">
                                     View Profile
                                 </button>

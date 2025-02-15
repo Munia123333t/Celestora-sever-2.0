@@ -40,7 +40,7 @@ const AllArtifacts = () => {
             <Helmet>
                 <title> All Artifacts / Celestora</title>
             </Helmet>
-            <h1 className="text-5xl bg-gradient-to-r from-yellow-950 via-orange-700 to-red-900 bg-clip-text text-transparent font-bold text-center mb-6 mt-10 ">
+            <h1 className="text-5xl bg-gradient-to-r from-yellow-950 via-orange-700 to-red-950 bg-clip-text text-transparent font-bold text-center mb-6 mt-10 ">
                 All Artifacts
             </h1>
             <div className="p-4 flex items-center justify-center relative">

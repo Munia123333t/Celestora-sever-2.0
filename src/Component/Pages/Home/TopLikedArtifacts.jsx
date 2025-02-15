@@ -41,7 +41,7 @@ const TopLikedArtifacts = () => {
                                 {artifact.historicalContext || "No description available."}
                             </p>
                             <div className="flex items-center justify-center mt-6 sm:mt-10">
-                                <Link to={`/artifactDetails/${artifact._id}`} className="btn text-base sm:text-xl hover:bg-gradient-to-r hover:from-yellow-900 hover:via-orange-900 hover:to-red-900 hover:text-white border-2 border-yellow-900 font-semibold">
+                                <Link to={`/artifactDetails/${artifact._id}`} className="btn text-base sm:text-xl hover:bg-gradient-to-r hover:from-yellow-950  hover:to-orange-700 hover:text-white border-2 border-yellow-900 font-semibold">
                                     See Details
                                 </Link>
                             </div>
@@ -50,7 +50,7 @@ const TopLikedArtifacts = () => {
                 ))}
             </div>
             <div className="flex items-center justify-center mt-6 sm:mt-10">
-                <Link to="/allArtifacts" className="btn text-base sm:text-xl bg-gradient-to-r from-yellow-900 via-orange-900 to-red-900 text-white font-semibold">
+                <Link to="/allArtifacts" className="btn text-base sm:text-xl bg-gradient-to-r from-yellow-950  to-orange-700 text-white font-semibold">
                     See All Artifacts
                 </Link>
             </div>
