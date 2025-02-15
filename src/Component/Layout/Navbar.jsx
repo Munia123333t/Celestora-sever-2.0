@@ -143,7 +143,7 @@ const linkDrop = (
           </ul>
         </div>
         <NavLink to="/" className="flex items-center cursor-pointer">
-          <img className="w-20" src={Image1} alt="Sunflower Logo" />
+          <img className="md:w-20 w-12" src={Image1} alt="Sunflower Logo" />
           <span className="font-bold md:text-3xl text-lg">Celestora</span>
         </NavLink>
       </div>
@@ -196,10 +196,10 @@ const linkDrop = (
           ) : (
             
             <div className="flex items-center gap-2">
-            <FaUserCircle className="size-10  text-yellow-800" />
+            <FaUserCircle className="md:size-10 size-8  text-yellow-800" />
             <NavLink
               to="login"
-              className="px-5 py-2  rounded-3xl md:text-xl text-lg font-semibold bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 border text-white"
+              className="px-5 py-2  rounded-3xl md:text-xl text-xs font-semibold bg-gradient-to-r from-yellow-900 via-orange-800 to-red-900 border text-white"
             >
               Log In
             </NavLink>

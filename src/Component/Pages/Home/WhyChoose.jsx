@@ -2,12 +2,13 @@ import { Fade } from "react-awesome-reveal";
 
 const WhyChoose = () => {
     return (
-        <div className="mt-5">
-            <div className="py-16 bg-gradient-to-r from-yellow-950 via-orange-900 to-red-950 text-white">
-                <div className="container mx-auto px-4">
-                    <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
+<div className="mt-5 w-full overflow-hidden container mx-auto">
+            <div className="py-8 sm:py-16 bg-gradient-to-r from-yellow-950 via-orange-900 to-red-950 text-white">
+                <div className="px-4 sm:px-6">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8">
                         Why Choose Us?
                     </h2>
+
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {[
                             {
@@ -43,6 +44,7 @@ const WhyChoose = () => {
                             </Fade>
                         ))}
                     </div>
+
                 </div>
             </div>
         </div>

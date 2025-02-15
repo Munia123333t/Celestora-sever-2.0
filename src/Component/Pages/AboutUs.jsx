@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
-    <div className="bg-gray-50 py-16">
+    <div className="bg-gray-50 py-16 container mx-auto">
             <Helmet>
                 <title> AboutUs / Celestora</title>
             </Helmet>

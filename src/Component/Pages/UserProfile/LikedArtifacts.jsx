@@ -45,7 +45,7 @@ const LikedArtifacts = () => {
   };
 
   return (
-    <div className="p-6 min-h-screen bg-gray-100">
+    <div className="p-6 min-h-screen container mx-auto bg-gray-100">
       <Helmet>
           <title> My Liked Artifacts / Celestora</title>
       </Helmet>

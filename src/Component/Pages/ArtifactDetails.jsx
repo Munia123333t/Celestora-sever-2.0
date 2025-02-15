@@ -84,7 +84,7 @@ const ArtifactDetails = () => {
     };
 
     return (
-        <div>
+        <div className="container mx-auto">
             <Helmet>
                 <title> Artifact Details/All Artifacts/Celestora</title>
             </Helmet>

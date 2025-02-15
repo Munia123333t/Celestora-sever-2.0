@@ -36,7 +36,7 @@ const AllArtifacts = () => {
     };
 
     return (
-        <div>
+        <div className="container mx-auto">
             <Helmet>
                 <title> All Artifacts / Celestora</title>
             </Helmet>

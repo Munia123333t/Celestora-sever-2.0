@@ -48,7 +48,7 @@ const AddArtifacts = () => {
             })
     }
     return (
-<div className="max-w-4xl mx-auto bg-gray-100 p-8 rounded-lg shadow-lg"> 
+<div className="max-w-4xl bg-gray-100 p-8 rounded-lg shadow-lg container mx-auto"> 
     <Helmet>
         <title> Add Artifacts / Celestora</title>
     </Helmet>

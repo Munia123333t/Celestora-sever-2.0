@@ -67,7 +67,7 @@ const Signup = () => {
     };
     
   return (
-    <div className="flex items-center justify-center my-16 ">
+    <div className="flex container mx-auto items-center justify-center my-16 ">
       <Helmet>
           <title> Sign up / Celestora</title>
       </Helmet>

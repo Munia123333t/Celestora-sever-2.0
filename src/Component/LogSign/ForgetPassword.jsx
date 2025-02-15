@@ -29,7 +29,7 @@ const ForgetPassword = () => {
   };
 
   return (
-    <div className="flex items-center justify-center my-16 relative">
+    <div className="flex container mx-auto items-center justify-center my-16 relative">
       <Helmet>
           <title> Forget Password / Celestora</title>
       </Helmet>
