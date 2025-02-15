@@ -1,6 +1,6 @@
-# Artifact Hub Backend Server 🔺🌍
+# Celestora Backend Server 🔺🌍
 
-This is the backend server for **Artifact Hub**, a platform designed to catalog and explore historical artifacts. The server is built with **Express.js** and provides APIs for user authentication, artifact management, and like functionality. It seamlessly integrates with the frontend to ensure a smooth and secure user experience.
+This is the backend server for **Celestora**, a platform designed to catalog and explore historical artifacts. The server is built with **Express.js** and provides APIs for user authentication, artifact management, and like functionality. It seamlessly integrates with the frontend to ensure a smooth and secure user experience.
 
 ---
 
@@ -60,7 +60,7 @@ This is the backend server for **Artifact Hub**, a platform designed to catalog 
 
 The server is deployed on Vercel and can be accessed via:
 
-- **[https://artifact-hub.vercel.app](https://artifact-hub-server.vercel.app/)**
+- **[Celestora](https://artifact-hub-server.vercel.app/)**
 
 ---
 
@@ -114,4 +114,4 @@ The server is deployed on Vercel and can be accessed via:
 
 ---
 
-Built with 💙 and passion by [Sarafat Karim](https://www.linkedin.com/in/sarafat-karim/).
+Built with 💙 and curiosity for history by [Munia Akhter](https://www.linkedin.com/in/munia-akhter-27304329a/).
