@@ -4,7 +4,7 @@ const AllArtifactsCard = ({ celestora }) => {
     const { _id,name, image, type, historicalContext,likeCount } = celestora;
 
 return (
-    <div className="card bg-base-100 shadow-xl">
+    <div className="card bg-base-100 shadow-xl dark:bg-gray-700">
 
     <figure>
         <img

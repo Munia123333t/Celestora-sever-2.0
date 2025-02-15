@@ -3,7 +3,7 @@ import Image1 from "/assets/PastFinder1.jpg";
 
 const Footer = () => {
   return (
-    <div className="bg-base-200">
+    <div className="bg-base-200  dark:bg-gray-800 text-black dark:text-white">
       {/* Main Footer */}
       <footer className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Top Section - Logo and Description */}
@@ -50,7 +50,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li><Link to="/aboutus" className="link link-hover">About us</Link></li>
                 <li><Link  className="link link-hover">Contact</Link></li>
-                <li><Link className="link link-hover">Jobs</Link></li>
+                <li><Link to="/VlogPage" className="link link-hover">Vlogs</Link></li>
               </ul>
             </div>
 

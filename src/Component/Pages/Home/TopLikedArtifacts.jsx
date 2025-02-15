@@ -24,11 +24,11 @@ const TopLikedArtifacts = () => {
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error: {error}</p>;
     return (
-<section className="my-8 sm:my-16 px-4 sm:px-6 w-full overflow-hidden">
+<section className=" sm:my-16 px-4 sm:px-6 w-full overflow-hidden container mx-auto bg-white dark:bg-gray-800 text-black dark:text-white ">
             <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6">Top Liked Artifacts</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                 {artifacts.map((artifact) => (
-                    <div key={artifact._id} className="p-4 bg-white shadow-lg rounded-lg">
+                    <div key={artifact._id} className="p-4 bg-white shadow-lg rounded-lg  dark:bg-gray-700 text-black dark:text-white">
                         <img
                             src={artifact.image || "https://via.placeholder.com/150"}
                             alt={artifact.name}

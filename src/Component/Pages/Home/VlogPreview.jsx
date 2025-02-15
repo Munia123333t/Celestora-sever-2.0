@@ -36,25 +36,25 @@ const VlogPreview = () => {
       ];
     
     return (
-<section className="bg-gradient-to-b from-gray-50 to-white py-16">
+<section className=" bg-white dark:bg-gray-800 text-black dark:text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-gray-900">Featured Vlogs</h2>
-          <p className="text-lg text-gray-600 mb-8">Discover amazing stories and adventures</p>
+          <h2 className="text-4xl font-bold mb-4  bg-white dark:bg-gray-800 text-black dark:text-white">Featured Vlogs</h2>
+          <p className="text-lg  mb-8 bg-white dark:bg-gray-800 text-black dark:text-white">Discover amazing stories and adventures</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 ">
           {featuredVlogs.map((vlog) => (
-            <div key={vlog.id} className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform hover:scale-105">
+            <div key={vlog.id} className=" rounded-xl shadow-lg overflow-hidden transform transition-transform hover:scale-105 bg-white dark:bg-gray-700 text-black dark:text-white">
               <img src={vlog.image} alt={vlog.title} className="w-full h-48 object-cover" />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-900">{vlog.title}</h3>
-                <p className="text-gray-600 mb-4">{vlog.description}</p>
-                <div className="flex items-center text-sm text-gray-500 mb-4">
-                  <User size={16} className="mr-2" />
-                  <span className="mr-4">{vlog.author}</span>
-                  <Clock size={16} className="mr-2" />
-                  <span>{vlog.duration}</span>
+                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">{vlog.title}</h3>
+                <p className="text-gray-600 h-16 dark:text-gray-400">{vlog.description}</p>
+                <div className="flex items-center text-sm text-gray-400 mb-4">
+                  <User size={16} className="mr-2 dark:text-gray-400" />
+                  <span className="mr-4 dark:text-gray-400">{vlog.author}</span>
+                  <Clock size={16} className="mr-2 dark:text-gray-400" />
+                  <span className='dark:text-gray-400'>{vlog.duration}</span>
                 </div>
               </div>
             </div>

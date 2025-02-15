@@ -73,7 +73,7 @@ const VlogPage = () => {
         : allVlogs.filter(vlog => vlog.category === selectedCategory);
     
     return (
-<div className="min-h-screen bg-gray-50">
+<div className="min-h-screen  bg-white dark:bg-gray-800 text-black dark:text-white">
       <div className="container mx-auto px-4 py-16">
         <h1 className="text-5xl bg-gradient-to-r from-yellow-950 via-orange-700 to-red-900 bg-clip-text text-transparent font-bold text-center mb-6">Artifact Stories</h1>
         <p className="text-xl text-center text-gray-600 mb-12">Discover the fascinating world of historical artifacts through our expert-led video series</p>
@@ -86,7 +86,7 @@ const VlogPage = () => {
               className={`px-6 py-2 rounded-full transition-colors ${
                 selectedCategory === category
                   ? 'bg-gradient-to-r from-yellow-950  to-orange-700 text-white'
-                  : 'bg-white text-gray-600 hover:bg-gray-100'
+                  : 'bg-white dark:bg-gray-500 dark:text-gray-200 text-gray-600 hover:bg-gray-100'
               }`}
             >
               {category}
@@ -96,20 +96,20 @@ const VlogPage = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredVlogs.map((vlog) => (
-            <div key={vlog.id} className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all hover:scale-105">
+            <div key={vlog.id} className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all hover:scale-105  dark:bg-gray-700 text-black dark:text-white">
               <img src={vlog.image} alt={vlog.title} className="w-full h-48 object-cover" />
               <div className="p-6">
-                <div className="text-sm font-semibold text-orange-800 mb-2">{vlog.category}</div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900">{vlog.title}</h3>
-                <p className="text-gray-600 mb-4">{vlog.description}</p>
+                <div className="text-sm font-semibold text-orange-800 mb-2 dark:text-orange-700">{vlog.category}</div>
+                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-gray-300">{vlog.title}</h3>
+                <p className="text-gray-600 h-16 dark:text-gray-400">{vlog.description}</p>
                 <div className="flex items-center justify-between text-sm text-gray-500">
                   <div className="flex items-center">
-                    <User size={16} className="mr-2" />
-                    <span>{vlog.author}</span>
+                    <User size={16} className="mr-2 dark:text-gray-400" />
+                    <span className='dark:text-gray-400'>{vlog.author}</span>
                   </div>
                   <div className="flex items-center">
                     <Clock size={16} className="mr-2" />
-                    <span>{vlog.duration}</span>
+                    <span className='dark:text-gray-400'>{vlog.duration}</span>
                   </div>
                 </div>
               </div>
